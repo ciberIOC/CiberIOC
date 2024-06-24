@@ -394,17 +394,23 @@ commands = [ "cat /home/isard/avaluacio/avaluacio.txt"]
 
 Tota la sortida es guardarà en dos arxius que vosaltres definireu. En un arxiu obtindreu l'última avaluació, i per l'altra, obtindreu un arxiu de text amb la sortida de MongoDB amb tots els intents.
 
-## Pas 5: Guardar els resultats a l'aula de coordinació i reptes de futur
+## Pas 5: Guardar els resultats a l'aula de coordinació
 
 Ambdós arxius els haureu de guardar a l'aula de coordinació i els podrem utilitzar per millorar-ne l'autoavaluació.
 
-La part més important a intentar aconseguir, és com fer avaluacions automàtiques tenint les dades de MongoDB, no totes les dades que es mostrin ara son per fer públiques, però amb les dades de MongoDB podríem saber:
+## Reptes de futur
+
+La part més important a intentar aconseguir és com fer avaluacions automàtiques tenint les dades de MongoDB més extenses. Algunes informacions poden ser d'ús intern i d'altres per ser publicadas, però amb les dades de MongoDB podríem saber:
 
 - El temps mitjà que ha trigat un alumne, des del primer intent d'avaluació, a l'últim. També podríem capturar el temps de creació de la màquina per part de l'alumnat. I tindríem el temps final.
 - Podem saber si alguna part de l'exercici s'ha quedat encallat.
 - Podem saber quants intents ha necessitat per cada apartat.
 - Quants intents s'han fet en total.
 
+En l'àmbit del propi programa:
+- Connexió a través de claus público/privadas
+- Establir mecanismes de control del programa a través del hash
+- 
 
 
 
