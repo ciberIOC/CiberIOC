@@ -310,18 +310,21 @@ De l'arxiu editarem els espais premarcats, els quals tenen exemples.
 **FUNCIONS A CRIDAR A : crides**, inclourem aquelles funcions creades a crides.py. 
 
 Exemple:
-> from crides import ssh_system, rule_suricata
+````
+from crides import ssh_system, rule_suricata
+````
 
 **PREPAREM LES DADES PER CRIDAR LES FUNCIONS**, inclourem les IPs i documnets que volem descarregar.
 
 El hostname sempre caldrà realitzar-ho.
 
 Exemple:
-> documents = get_documents()
-> sistema = get_ips()
-> hostname = os.uname()[1]
-> ip_host1 = sistema[0]
-
+````
+documents = get_documents()
+sistema = get_ips()
+hostname = os.uname()[1]
+ip_host1 = sistema[0]
+````
 En aquest exemple, guardem a ip_host1 la única IP del sistema que volem analitzar.
 
 **CRIDEM LES FUNCIONS QUE VOLEM I GUARDEM**, anem fent totes les crides a crides.py que volem realitzar i en l'ordre que nosaltres volem que aparegui.
